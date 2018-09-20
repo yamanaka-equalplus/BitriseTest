@@ -440,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTest";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = MY_WildCard_Develop;
 				SWIFT_VERSION = 4.2;
@@ -460,9 +460,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTest";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = MY_WildCard_AdHoc;
+				PROVISIONING_PROFILE_SPECIFIER = MY_BitriseTest_AdHoc;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -481,7 +481,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -504,7 +504,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -526,7 +526,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = MY_WildCard_Develop;
 				SWIFT_VERSION = 4.2;
@@ -548,7 +548,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Makoto-Yamanaka.BitriseTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = MakotoYamanaka.BitriseTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = MY_WildCard_Develop;
 				SWIFT_VERSION = 4.2;
