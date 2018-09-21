@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		Fabric.with([Crashlytics.self])
 		
 		//──────────TEST
-		Thread.sleep(forTimeInterval: 3)
+		Thread.sleep(forTimeInterval: 5)
 		return true
 	}
 }

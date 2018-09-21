@@ -20,20 +20,32 @@
                         <subviews>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Xid-iX-WkQ" userLabel="activityIndicator">
                                 <rect key="frame" x="169" y="315" width="37" height="37"/>
-                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aB4-xA-geu" userLabel="messageLabel">
+                                <rect key="frame" x="16" y="20" width="343" height="287"/>
+                                <string key="text">This is Splash.
+Sleep 5 sec.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.80122329430000006" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.74901960779999999" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Xid-iX-WkQ" firstAttribute="top" secondItem="aB4-xA-geu" secondAttribute="bottom" constant="8" id="HBr-XR-3yW" userLabel="messageLabel B"/>
                             <constraint firstItem="Xid-iX-WkQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PTX-wp-Gqr" userLabel="activityIndicator.centerY"/>
                             <constraint firstItem="Xid-iX-WkQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SxA-8q-35f" userLabel="activityIndicator.centerX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aB4-xA-geu" secondAttribute="trailing" constant="16" id="jWp-Xb-2TO" userLabel="messageLabel R"/>
+                            <constraint firstItem="aB4-xA-geu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mvP-mb-PZE" userLabel="messageLabel T"/>
+                            <constraint firstItem="aB4-xA-geu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sIf-Uu-y2B" userLabel="messageLabel L"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
