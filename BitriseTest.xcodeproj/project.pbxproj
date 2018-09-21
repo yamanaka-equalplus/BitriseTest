@@ -177,6 +177,7 @@
 				0EE38F062153A2D00022E8D6 /* Sources */,
 				0EE38F072153A2D00022E8D6 /* Frameworks */,
 				0EE38F082153A2D00022E8D6 /* Resources */,
+				0E95A0692155008800C57453 /* [Crashlytics] Run Script */,
 			);
 			buildRules = (
 			);
@@ -296,6 +297,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E95A0692155008800C57453 /* [Crashlytics] Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[Crashlytics] Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" \"81280bf5cf8ab2911cd339aa08b74ec7ccef90aa\" \"2a1e96613d4e275929371db07e175261026fcf943bcfa49408a7f002dc2fd8dd\"\n";
+		};
 		1CFBCD0496356EF5E3335A75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
