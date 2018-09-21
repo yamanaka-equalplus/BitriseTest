@@ -10,6 +10,6 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		versionLabel.text = (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? ""
+		versionLabel.text = "ver." + ((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "")
 	}
 }
